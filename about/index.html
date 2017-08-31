@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About me</title>
+    
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Zilla+Slab|Zilla+Slab+Highlight">
+    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+    <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+    <header>
+        <figure class="header-figure">
+            <img class="header-img" src="assets/avatar.jpeg" alt="Author avatar">
+        </figure>
+        <h1>About me</h1>
+        <p>Few things about me, ekhm, or more likely what <a href='https://giphy.com/'>Giphy</a>&reg; thinks is accurate...<br/>(click gallery image and let the magic happen)</p>
+    </header>
+    <hr/>
+    <section>
+        <div>
+            <figure class="gallery-figure">
+                <img class="gallery-img" src="assets/color_green.jpeg" alt="What amuses me?" onclick="giphySearch('amusing', this)">
+                <figcaption>What amuses me?</figcaption> 
+            </figure>
+            <figure class="gallery-figure">
+                <img class="gallery-img" src="assets/color_yellow.jpeg" alt="What inspires me?" onclick="giphySearch('inspiring', this)">
+                <figcaption>What inspires me?</figcaption> 
+            </figure>
+        </div>
+        <div>
+            <figure class="gallery-figure">
+                <img class="gallery-img" src="assets/color_orange.jpeg" alt="Something stupid" onclick="giphySearch('stupid', this)">
+                <figcaption>Something stupid</figcaption> 
+            </figure>
+            <figure class="gallery-figure">
+                <img class="gallery-img" src="assets/color_red.jpeg" alt="Something fascinating" onclick="giphySearch('fascinating', this)">
+                <figcaption>Something fascinating</figcaption> 
+            </figure>
+        <div>
+    </section>
+    <hr/>
+    <footer>
+        <p>&copy; 2017 <a href='mailto:bnij@viessmann.com'>bnij@viessmann.com</a></p>
+    </footer>
+</body>
+</html>
